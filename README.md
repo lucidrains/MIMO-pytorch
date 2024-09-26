@@ -1,4 +1,4 @@
-# MIMO - Pytorch (wip)
+## MIMO - Pytorch (wip)
 
 Pytorch implementation of <a href="https://menyifang.github.io/projects/MIMO/index.html">MIMO, Controllable Character Video Synthesis with Spatial Decomposed Modeling</a>, from Alibaba Intelligence Group
 

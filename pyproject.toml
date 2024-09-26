@@ -1,0 +1,58 @@
+[project]
+name = "MIMO"
+version = "0.0.1"
+description = "MIMO - Controllable Character Video Synthesis"
+authors = [
+    { name = "Phil Wang", email = "lucidrains@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">= 3.9"
+license = { file = "LICENSE" }
+keywords = [
+    'artificial intelligence',
+    'deep learning',
+    'diffusion',
+    'character video synthesis'
+]
+
+classifiers=[
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'Topic :: Scientific/Engineering :: Artificial Intelligence',
+    'License :: OSI Approved :: MIT License',
+    'Programming Language :: Python :: 3.9',
+]
+
+dependencies = [
+    "torch>=2.0",
+    "einops>=0.8.0"
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/MIMO-pytorch/"
+Repository = "https://github.com/lucidrains/MIMO-pytorch"
+
+[project.optional-dependencies]
+examples = []
+test = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["MIMO_pytorch"]
