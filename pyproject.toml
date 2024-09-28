@@ -1,5 +1,5 @@
 [project]
-name = "MIMO"
+name = "MIMO in Pytorch"
 version = "0.0.1"
 description = "MIMO - Controllable Character Video Synthesis"
 authors = [
@@ -24,8 +24,10 @@ classifiers=[
 ]
 
 dependencies = [
+    "jaxtyping",
+    "einx>=0.3.0",
+    "einops>=0.8.0",
     "torch>=2.0",
-    "einops>=0.8.0"
 ]
 
 [project.urls]
