@@ -1,5 +1,5 @@
 [project]
-name = "MIMO in Pytorch"
+name = "MIMO_pytorch"
 version = "0.0.1"
 description = "MIMO - Controllable Character Video Synthesis"
 authors = [
